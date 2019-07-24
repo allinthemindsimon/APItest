@@ -1,0 +1,12 @@
+
+
+POST http://127.0.0.1:8000/api/post/read.php HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Testing Post",
+    "body": "This is a sample post",
+    "author": "me me me",
+    "category_id": 3
+}
+
